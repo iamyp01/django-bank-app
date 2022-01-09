@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Details - Simple Banking System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+</head>
+<body>
+    {% include 'accounts/navbar.html' %}
+    <div class="container" style="text-align: center;">
+        <div class="row">
+            <div class="col-3">
+                <img style="border-radius: 50%; margin-top: 45%;" src="{% static 'img/me.jpg' %}" alt="">
+            </div>
+            <div class="col-9" style="margin-top: 12%;">
+                <h1 style="font-size: 45px; font-weight: bolder; ">Yuvraj Parashar</h1>
+                <h7 style="color: #a3a3a3;font-weight: bolder; font-style: italic; font-size: 15px;">Web Development Intern - The Sparks Foundation</h7> <br>
+                <small style="color: #a3a3a3;font-weight: bolder; font-style: italic; font-size: 15px;">Batch - January 2022 (<span style="color: #828181;">Task 1</span>)</small> <br><br>
+                <div>
+                    <a href="https://www.linkedin.com/in/iamyp01/" ><img src="https://www.freeiconspng.com/uploads/linkedin-logo-3.png" width="60" alt="Linkedin Logo Png Available In Different Size" /></a>
+                    <a href="https://github.com/iamyp01"><img src="https://www.freeiconspng.com/uploads/github-logo-icon-0.png" width="60" alt="Github Logo Save Icon Format" /></a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
