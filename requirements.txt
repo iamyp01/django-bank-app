@@ -120,7 +120,7 @@ pyttsx3==2.90
 PyTweening==1.0.3
 pytz==2019.3
 pywhatkit==3.9
-# pywinpty==1.1.6
+pywinpty==1.1.6
 pyzmq==22.3.0
 qtconsole==5.2.2
 QtPy==2.0.0
